@@ -1,0 +1,45 @@
+Muniru Lamin
+Dr Joe Anderson
+COSC320 Lab-8 Binary Search Tree
+04/10/19
+
+
+This program purpose is to test the different binary search tree functions.
+There are 3 files I have for this program, they are my main.cpp, BinaryTree.h,
+and Binary.cpp. My BinaryTree.h is where all my declarations for my Binarytree functions are done.
+This is where I set up my classes and set up how I want my functions to work.
+The BinaryTree.cpp is where all the implementations for the functions declared in the .h file.
+The main.cpp is where I call include the Binarytree.h file and create an object of it, so I can access the
+functions I created to do what the user wants done. My main also does a menu option for the user, so that all
+the functions of the BST are tested to see if they work properly.
+
+
+Questions:
+
+a). Once a again I appoach this problem by thoroughly reading and understanding what my proffessor wanted me to do.
+After reading I started with my main by making my menu options and asking user for What operation of my tree they would 
+like to test. Once I impplemented that I worked  on my BinaryTree.h and .cpp files. I first implemented my insert function 
+and made sure that worked and asked user if they would like to delete, then implemented the delete function. I use this step 
+of coding just so I dont have a lot of errors in different functions at the same time.
+
+
+
+
+b).The Theoretical time complexity of my algorithms are: Insert Worst case: Big O(h) where all items 
+are input into the tree in a straight line. Best case: Big O(log(n)) Search Wrost case: Big O(h) the 
+case where all the items are entered in ascending or descending order. Delete Worst case: Big O(h) 
+because the search function is called to find the node. Best case: Big O(log(n)) 
+
+
+
+c).When tested program with different size of the tree, the time varied based on the size. The more I
+ made the size bigger, the longer it took to sort. It also depended on the value that was being inserted, 
+search for or deleted. If the value happened to be place at the beginning of the tree the search time is 
+shorter ame for the delete. Same case for the insert if the value was to be placed at the beginning of the tree.
+
+
+
+d). My code could be improved by doing more encapsulations to my BinaryTree.h functions because in that way it will be easier 
+and safer so user does not have access to my functions that do the actual implementations for the functions. I could also improve my code by 
+using different type of menu option instead of the if statements, and also add validation checks just incase the user enters a value that will cause
+program to run infinitely.
